@@ -5,6 +5,7 @@
         <td><img :src="message.sender.profileImage" class="imgs">  </td>
         <td>
             <p> <b>{{message.sender.name}} </b>    </p>
+
             <p>{{message.content}}</p>
         </td>
             <td>

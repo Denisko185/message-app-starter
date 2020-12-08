@@ -15,8 +15,7 @@ export const contactsModule = {
 
     getters: {
         getContacts: (state)=> {
-            return state.contacts;
-        }
+            return state.contacts; }
     },
     actions:{
 

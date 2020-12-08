@@ -6,9 +6,7 @@ export const  messagesModule = {
     namespace: false,
 
     state(){
-        return {
-            messages: messagesMock,
-        }
+        return { messages: messagesMock, }
     },
 
     mutations: {
